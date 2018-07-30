@@ -1,6 +1,6 @@
 # TTP0 Overview
 
-# Community Resources
+# For The Community  - Resources
 
 ## Tools
 [TTP0 DRONE](https://github.com/TTP0/drone) - A customized Python client to record incidents
