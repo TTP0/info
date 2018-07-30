@@ -12,11 +12,11 @@
 # TTP0 Founders
 
 * Carlos Diaz, [@dfirence](https://twitter.com/dfirence)
-* Carric Doole, [@carric](https://twitter.com/carric)
+* Carric Dooley, [@carric](https://twitter.com/carric)
 * Rob Gresham, [@SOCologize](https://twitter.com/socologize)
 * Ismael Valenzuela, [@aboutsecurity](https://twitter.com/aboutsecurity)
 
 
 Contact us on info@ttp0.io // Follow us on Twitter [TTP0](https://twitter.com/TTP_0)
 
-[http://ttp0.io]
+[www.ttp0.io](http://www.ttp0.io)
