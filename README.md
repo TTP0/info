@@ -12,11 +12,14 @@
 
 # TTP0 Founders
 
-* Carlos Diaz, [@dfirence](https://twitter.com/dfirence)
-* Carric Dooley, [@carric](https://twitter.com/carric)
-* Rob Gresham, [@SOCologize](https://twitter.com/socologize)
-* Ismael Valenzuela, [@aboutsecurity](https://twitter.com/aboutsecurity)
+Founder | Twitter
+--------|----------
+Carlos Diaz       | *[@dfirence](https://twitter.com/dfirence)*
+Carric Dooley     | *[@carric](https://twitter.com/carric)*
+Rob Gresham       | *[@SOCologize](https://twitter.com/socologize)*
+Ismael Valenzuela | *[@aboutsecurity](https://twitter.com/aboutsecurity)*
 
+***
 
 ### Get in touch with us!
 
