@@ -1,6 +1,14 @@
-# TTP0 Overview
+<h1 align="center">TTP0 Overview</h1>
+
+
 [![TTP0 MISSION VISION](https://i.imgur.com/pWtgAMM.png)](https://i.imgur.com/pWtgAMM.png "MISSION")
+
 ***
+
+<br>
+<br>
+<br>
+
 # For The Community  - Resources
 
 ## Tools
@@ -8,7 +16,10 @@
 
 ## Resources
 [TTP0 TEMPLATES](https://github.com/TTP0/ttp0_community_templates) - Powerpoint Templates to equip the community with base communication
-
+***
+<br>
+<br>
+<br>
 
 # TTP0 Founders
 
