@@ -7,7 +7,7 @@
 [TTP0 DRONE](https://github.com/TTP0/drone) - A customized Python client to record incidents
 
 ## Resources
-[TTP0 TEMPLATES](https://github.com/TTP0/ttp0_community_templates) - Powerpoint Templates to equip community with communication
+[TTP0 TEMPLATES](https://github.com/TTP0/ttp0_community_templates) - Powerpoint Templates to equip the community with base communication
 
 
 # TTP0 Founders
@@ -18,6 +18,10 @@
 * Ismael Valenzuela, [@aboutsecurity](https://twitter.com/aboutsecurity)
 
 
-Contact us on info@ttp0.io // Follow us on Twitter [TTP0](https://twitter.com/TTP_0)
+### Get in touch with us!
 
-[www.ttp0.io](http://www.ttp0.io)
+Contact | address
+--------|-------------
+E-mail  | info@ttp0.io
+Twitter | [TTP0](https://twitter.com/TTP_0)
+Web     | [www.ttp0.io](http://www.ttp0.io)
