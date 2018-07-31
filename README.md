@@ -1,5 +1,6 @@
 # TTP0 Overview
-
+[![TTP0 MISSION VISION](https://i.imgur.com/pWtgAMM.png)](https://i.imgur.com/pWtgAMM.png "MISSION")
+***
 # For The Community  - Resources
 
 ## Tools
