@@ -1,0 +1,147 @@
+<div class="root"
+  fxLayout="row"
+  fxLayoutAlign="center">
+  <div class="container"
+    fxFlex
+    fxFlex.xl="92%"
+    fxLayoutAlign="center"
+    fxLayoutAlign.gt-md="space-around none"
+    fxLayoutAlign.xl="center"
+    fxLayout="row"
+    fxLayoutGap="19px"
+    fxLayout.lt-sm="column"
+    fxLayout.lt-md="column"
+    fxLayout.lt-lg="row"
+    fxLayout.gt-md="row"
+    fxLayout.xl="row"
+    [ngStyle.lt-sm]="{'margin-left': '10px', 'margin-right': '10px'}"
+    [ngStyle.lt-lg]="{'margin-left': '10px', 'margin-right': '10px'}"
+    [ngStyle.gt-md]="{'height': '400px'}"
+    [ngStyle.gt-lg]="{'height': '400px'}">
+    <!-- Mission, Vision, Problem Statement Here -->
+    <div class="item mission" fxFlex.gt-md="30%">
+      <mat-card
+        [ngStyle.lt-sm]="{'margin-left': 'auto', 'margin-right': 'auto'}" 
+        [ngStyle.lt-md]="{'margin-left': 'auto', 'margin-right': 'auto'}"
+        [ngStyle.lt-lg]="{'width': '260px'}"
+        [ngStyle.gt-md]="{'height': '360px'}"
+        fxFlex.gt-md="100%">
+        <div class="cnt-container"
+            fxLayout="row"    
+            fxLayoutGap="10px">
+          <mat-icon>location_searching</mat-icon>
+          <mat-card-header>
+              <mat-card-title
+              [ngStyle.lt-sm]="{'font-size': '16px'}"
+              [ngStyle.lt-lg]="{'font-size': '16px'}">Mission</mat-card-title>      
+              <mat-card-subtitle
+              [ngStyle.lt-sm]="{'font-size': '14px'}"
+              [ngStyle.lt-lg]="{'font-size': '14px'}">Unified Security Operations</mat-card-subtitle>
+          </mat-card-header>
+        </div>
+
+        <mat-card-content>
+          <p class="vision"
+          [ngStyle.lt-sm]="{'font-size': '14px'}"
+          [ngStyle.lt-lg]="{'font-size': '14px'}">Thrive together in enterprise Security Operations Programs</p>
+        </mat-card-content>
+        <!-- Vision -->
+        <br>
+        <div class="cnt-container" fxLayout="row" fxLayoutGap="10px">
+          <mat-icon>public</mat-icon>
+          <mat-card-header>
+              <mat-card-title
+                [ngStyle.lt-sm]="{'font-size': '16px'}"
+                [ngStyle.lt-lg]="{'font-size': '16px'}">Vision</mat-card-title>
+              <mat-card-subtitle
+                [ngStyle.lt-sm]="{'font-size': '14px'}"
+                [ngStyle.lt-lg]="{'font-size': '14px'}">Vendor Neutral Security Operations Community</mat-card-subtitle>
+            </mat-card-header>
+        </div>
+        
+        <mat-card-content>
+            <p class="vision"
+              [ngStyle.lt-sm]="{'font-size': '14px'}"
+              [ngStyle.lt-lg]="{'font-size': '13px'}">Build and support a unified global Security Operations Center</p>
+
+        </mat-card-content>
+        <!-- LEARN MORE-->
+        <br>
+        <div class="cnt-container" fxLayout="row" fxLayoutGap="10px">
+          <mat-icon>share</mat-icon>
+          <mat-card-header>
+              <mat-card-title
+                [ngStyle.lt-sm]="{'font-size': '16px'}"
+                [ngStyle.lt-lg]="{'font-size': '16px'}">Open Source</mat-card-title>
+              <mat-card-subtitle
+                [ngStyle.lt-sm]="{'font-size': '14px'}"
+                [ngStyle.lt-lg]="{'font-size': '14px'}">Open Source Research and Resources</mat-card-subtitle>
+          </mat-card-header>
+        </div>       
+      </mat-card>
+    </div>
+
+    <div class="item problem" fxFlex.gt-md="30%">
+        <mat-card
+        [ngStyle.lt-sm]="{'margin-left': 'auto', 'margin-right': 'auto'}" 
+        [ngStyle.lt-md]="{'margin-left': 'auto', 'margin-right': 'auto'}"
+        [ngStyle.lt-lg]="{'width': '260px'}"
+        [ngStyle.gt-md]="{'height': '360px'}"
+        fxFlex.gt-md="100%">
+          <div  class="cnt-container" fxLayout="row" fxLayoutGap="10px">
+            <mat-icon>assignment_late</mat-icon>
+              <mat-card-header>
+                <mat-card-title
+                  [ngStyle.lt-sm]="{'font-size': '16px'}"
+                  [ngStyle.lt-lg]="{'font-size': '16px'}">Problem</mat-card-title>
+                <mat-card-subtitle
+                  [ngStyle.lt-sm]="{'font-size': '14px'}"
+                  [ngStyle.lt-lg]="{'font-size': '14px'}">Value Proposition of a SOC</mat-card-subtitle>
+              </mat-card-header>            
+          </div>
+          <mat-card-content fxFlow fxFlowLayoutAlign="column">
+              <div class="question-container" align="center">
+                <p class="question"
+                  [ngStyle.lt-sm]="{'font-size': '14px'}"
+                  [ngStyle.lt-lg]="{'font-size': '14px'}">Why do security programs not thrive, despite being well funded?</p>
+              </div><br>
+              <p class="vision"
+                [ngStyle.lt-sm]="{'font-size': '14px'}"
+                [ngStyle.lt-lg]="{'font-size': '14px'}">After 10 years of consulting across business segments, we concluded the problem lies with tackling this question.</p>
+              <p class="vision"
+                [ngStyle.lt-sm]="{'font-size': '14px'}"
+                [ngStyle.lt-lg]="{'font-size': '14px'}">We believe this problem has 3 dimensions of focus in any security program. They also have the same motivations, and
+                business needs in any industry vertical or public sector organization.
+              </p>
+          </mat-card-content>
+        </mat-card>
+    </div>
+    
+    <div class="item" fxFlex.gt-md="30%">
+        <mat-card
+        [ngStyle.lt-sm]="{'margin-left': 'auto', 'margin-right': 'auto'}" 
+        [ngStyle.lt-md]="{'margin-left': 'auto', 'margin-right': 'auto'}"
+        [ngStyle.lt-lg]="{'width': '280px'}"
+        [ngStyle.gt-md]="{'height': '360px'}"
+        fxFlex.gt-md="100%">
+          <mat-card-header>
+            <mat-card-title
+            [ngStyle.lt-sm]="{'font-size': '16px'}"
+            [ngStyle.lt-lg]="{'font-size': '16px'}">Problem Dimensions</mat-card-title>
+            <mat-card-subtitle
+              [ngStyle.lt-sm]="{'font-size': '14px'}"
+              [ngStyle.lt-lg]="{'font-size': '14px'}">Focus Areas</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <img
+            [ngStyle.lt-sm]="{'margin-top': '20px'}"
+            [ngStyle.lt-md]="{'width': '100%'}"
+            [ngStyle.lt-lg]="{'width': '100%'}"
+            [ngStyle.xl]="{'width':'99%', 'height':'100%'}"
+            src="./assets/problem-resize.png" alt="problem-logo">
+          </mat-card-content>
+        </mat-card>
+    </div>
+  </div>
+</div>
+<br>

@@ -1,0 +1,90 @@
+.container {
+    /*border: 1px solid green;*/
+
+}
+
+.inner-container {
+    /*border: 1px solid blue;*/
+    background-color: #e8e8e8;
+}
+/*
+.item {
+    border: 1px solid red;
+}*/
+
+/*
+.cnt-child {
+    border: 1px solid green;
+}*/
+
+
+mat-tab-group {
+    /*border: 1px solid blue;*/
+    background-color: white;
+}
+
+
+/deep/.mat-tab-label, /deep/.mat-tab-label-active{
+    min-width: 50px!important;
+    padding: 10px!important;
+    margin: 4px!important;
+}
+
+b, mat-card-subtitle {
+    color: #00707F;
+}
+
+h2, p {
+    margin-left: 20px;
+    margin-right: 20px;    
+}
+
+p {
+    line-height: 25px;
+    font-size:  18px;
+}
+
+.profile-image {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.founder-title {
+    margin-top: 15px;
+    //margin-left: 30px;
+}
+
+
+.founder {
+    margin-top: 20px;
+    /*border: 1px solid red;*/
+}
+
+mat-card {
+    min-width:  100px;
+    height: 320px;
+}
+
+.logos {
+    width: 25px;
+    height: 25px;
+}
+/*
+.logo-holder {
+    border: 1px solid purple;
+}*/
+
+p {
+    font-size: 16px;
+    width: 95%;
+}
+
+.linkedin {
+    width: 25px;
+    height: 20px;
+}
+
+.statement {
+    margin-left:  5px;
+}
