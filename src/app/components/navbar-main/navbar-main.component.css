@@ -1,0 +1,17 @@
+
+h1 {
+    font-size: 32px;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+h5 {
+    color: cyan;
+}
+mat-toolbar {
+    background-color: #202124;
+    color: #ffffff
+}
+/*
+.item {
+    border: 1px solid pink;
+}*/

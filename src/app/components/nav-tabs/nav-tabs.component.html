@@ -1,0 +1,249 @@
+<div class="container"
+  fxFlex
+  fxLayout="row"
+  fxLayoutAlign="center">
+
+  <div class="cnt-child"
+       fxFlex.lt-sm="95%"
+       fxFlex.gt-md="92.5%"
+       fxFlex.xl="85%"
+       fxFlex.lt-md="85%">
+
+    <mat-tab-group mat-stretch-tabs>
+      <!--ENABLE TTP0 TAB NAVIGATION AND LINK CONTENT
+      <mat-tab label="WHY TTP0?">
+        <h1>It brings us together for the better</h1>
+      </mat-tab>
+    -->
+
+
+      <mat-tab label="TTP0 FOUNDERS">
+        <br>
+        <h2 align="center">Who We Are</h2>
+        <!-- TODO:  FOUNDERS SUB PAGE
+        <mat-grid-list cols="4" gutterSize="20px" rowHeight="50px">
+          <mat-grid-tile colspan="2">1</mat-grid-tile>
+          <mat-grid-tile colspan="2">2</mat-grid-tile>
+        </mat-grid-list>
+        -->
+        <br>
+          <!-- Founder Profiles-->
+            <div class="inner-container"
+                 fxFlex
+                 fxLayoutAlign="center center"
+                 fxLayoutAlign.lt-lg="space-evenly none"
+                 fxFlexLayout="row"
+                 fxLayoutGap="15px"
+                 fxLayoutGap.lt-lg="0px"
+                 fxLayout.xs="column"
+                 fxLayout.sm="column"
+                 fxLayout.lt-lg="row wrap"
+                 fxLayout.gt-md="row"
+                 fxLayoutGap.xs >
+
+              <div class="founder"
+                fxFlex="25%"
+                fxFlex.lt-lg="40%">
+                <mat-card
+                  [ngStyle.lt-sm]="{'height': 'auto'}"
+                  [ngStyle.lt-md]="{'height': 'auto', 'margin': '0px 120px 0px 120px'}"
+                  [ngStyle.gt-md]="{'height': '380px'}"
+                  [ngStyle.gt-lg]="{'height': '300px'}">
+                  <div class="cnt-container">
+                    <mat-card-header  fxLayout="row" fxLayoutGap="15px">
+                      <div mat-card-avatar class="item">
+                        <img  class="profile-image" src="./assets/founders/cdiaz.jpeg" alt="founder">
+                      </div>
+                      <div class="item founder-title" fxFlex="75">
+                        <mat-card-title
+                          [ngStyle.lt-sm]="{'font-size': '16px'}">Carlos Diaz</mat-card-title>
+                          <mat-card-subtitle><span class="ttp0">TTP0</span>&nbsp;&nbsp;Co-Founder</mat-card-subtitle>
+                      </div>
+                      <div class="item" fxFlexAlign="start" align="right">
+                        <button mat-icon-button [matMenuTriggerFor]="cdiaz">
+                          <mat-icon>more_vert</mat-icon>
+                          <mat-menu #cdiaz="matMenu">
+                                <!-- TODO ENABLE BIO MENU ITEM AND CREATE BIO PAGE
+                                <button mat-menu-item>
+                                  <mat-icon>dialpad</mat-icon>
+                                  <span>Bio</span>
+                                </button>
+
+
+                                <a mat-menu-item href="https://www.youtube.com/watch?v=nupiQiKhCoQ" target="_blank" rel="noopener">
+                                  <mat-icon>play_circle_filled</mat-icon>
+                                  <span>YouTube</span>
+                                </a>
+                              -->
+                                <a mat-menu-item href="https://www.linkedin.com/in/carlos-d-980a3541/" target="_blank" rel="noopener">
+                                  <mat-icon><img class="linkedin" src="./assets/LinkedIn-Logos/LI-In-Bug.png" alt=""></mat-icon>
+                                  <span>LinkedIn</span>
+                                </a>                        
+                          </mat-menu>
+                        </button>
+                      </div>
+                    </mat-card-header>
+                  </div>
+
+                  <mat-card-content>
+                    <br>
+                    <div>
+                      <p [ngStyle.lt-sm]="{'font-size': '14px'}">Carlos is a creative cyber security operations professional with successful international experience in high-stress and dynamic environments.</p> 
+                      <p [ngStyle.lt-sm]="{'font-size': '14px'}">He specializes in the practical incorporation of cyber tactics into operational environments.</p>
+                    </div>
+                  </mat-card-content>
+
+                </mat-card>
+              </div>
+
+              <div class="founder"
+                fxFlex="25%"
+                fxFlex.lt-lg="40%">
+                  <mat-card
+                    [ngStyle.lt-sm]="{'height': 'auto'}"
+                    [ngStyle.lt-md]="{'height': 'auto', 'margin': '0px 120px 0px 120px'}"
+                    [ngStyle.gt-md]="{'height': '380px'}"
+                    [ngStyle.gt-lg]="{'height': '300px'}">
+                    <div class="cnt-container">
+                      <mat-card-header  fxLayout="row" fxLayoutGap="15px">
+                        <div mat-card-avatar class="item">
+                          <img  class="profile-image" src="./assets/founders/cdolley.jpeg" alt="founder">
+                        </div>
+                        <div class="item founder-title" fxFlex="75">
+                          <mat-card-title>Carric Dooley</mat-card-title>
+                          <mat-card-subtitle><span class="ttp0">TTP0</span>&nbsp;&nbsp;Co-Founder</mat-card-subtitle>
+                        </div>
+                        <div class="item" fxFlexAlign="start" align="right">
+                          <button mat-icon-button [matMenuTriggerFor]="cdooley">
+                            <mat-icon>more_vert</mat-icon>
+                            <mat-menu #cdooley="matMenu">
+                                <a mat-menu-item href="https://www.linkedin.com/in/carric" target="_blank" rel="noopener">
+                                  <mat-icon><img class="linkedin" src="./assets/LinkedIn-Logos/LI-In-Bug.png" alt=""></mat-icon>
+                                  <span>LinkedIn</span>
+                                </a>
+                            </mat-menu>
+                          </button>
+                        </div>
+                      </mat-card-header>
+                    </div>
+                    <mat-card-content>
+                      <br>
+                      <div>
+                        <p [ngStyle.lt-sm]="{'font-size': '14px'}">Carric is a Security Executive with a community-first leadership style, and pioneer of the pen-testing industry since its adoption.</p>
+                        <p [ngStyle.lt-sm]="{'font-size': '14px'}">He is leading cyber security program assessment and transformation with a focus on Risk Management, Incident Response (SecOps), Strategy, Road mapping, and Metrics.</p>
+                      </div>                      
+                    </mat-card-content>
+
+                  </mat-card>
+                </div>
+
+              <div class="founder" fxFlex="25%" fxFlex.lt-lg="40%">
+                  <mat-card
+                    [ngStyle.lt-sm]="{'height': 'auto'}"
+                    [ngStyle.lt-md]="{'height': 'auto', 'margin': '0px 120px 0px 120px'}"
+                    [ngStyle.gt-md]="{'height': '380px'}"
+                    [ngStyle.gt-lg]="{'height': '300px'}">
+                    <div class="cnt-container">
+                      <mat-card-header  fxLayout="row" fxLayoutGap="15px">
+                        <div mat-card-avatar class="item">
+                          <img  class="profile-image" src="./assets/founders/ivalen.jpeg" alt="founder">
+                        </div>
+                        <div class="item founder-title" fxFlex="75">
+                          <mat-card-title>Ismael Valenzuela</mat-card-title>
+                          <mat-card-subtitle><span class="ttp0">TTP0</span>&nbsp;&nbsp;Co-Founder</mat-card-subtitle>
+                        </div>
+                        <div class="item" fxFlexAlign="start" align="right">
+                          <button mat-icon-button [matMenuTriggerFor]="ivalen">
+                              <mat-icon>more_vert</mat-icon>
+                              <mat-menu #ivalen="matMenu">
+                                <!-- TODO ENABLE BIO MENU ITEM AND CREATE BIO PAGE
+                                <button mat-menu-item>
+                                  <mat-icon>dialpad</mat-icon>
+                                  <span>Bio</span>
+                                </button>
+                                -->
+                                <a mat-menu-item href="https://www.youtube.com/watch?v=nupiQiKhCoQ" target="_blank" rel="noopener">
+                                  <mat-icon>play_circle_filled</mat-icon>
+                                  <span>YouTube</span>
+                                </a>
+
+                                <a mat-menu-item href="https://www.linkedin.com/in/ivalenzuela/" target="_blank" rel="noopener">
+                                  <mat-icon><img class="linkedin" src="./assets/LinkedIn-Logos/LI-In-Bug.png" alt=""></mat-icon>
+                                  <span>LinkedIn</span>
+                                </a> 
+
+                              </mat-menu>
+                          </button>
+                        </div>
+                      </mat-card-header>
+                    </div>
+                    <mat-card-content>
+                      <br>
+                      <div>
+                        <p [ngStyle.lt-sm]="{'font-size': '14px'}">Since he founded one of the first IT Security consultancies in Spain, Ismael Valenzuela has participated as a security professional in numerous projects across the globe over the past 19 years.</p>
+                        <p [ngStyle.lt-sm]="{'font-size': '14px'}">He is a prolific SANS Intructor and author of their highly acclaimed course - <a class="hyperlink" href="https://www.sans.org/course/defensible-security-architecture-and-engineering" target="_blank" rel="noopener">SANS SEC530</a></p>
+                      </div>                                            
+                    </mat-card-content>
+
+                  </mat-card>
+              </div>                
+
+              <div class="founder" fxFlex="25%" fxFlex.lt-lg="40%">
+                    <mat-card
+                      [ngStyle.lt-sm]="{'height': 'auto'}"
+                      [ngStyle.lt-md]="{'height': 'auto', 'margin': '0px 120px 0px 120px'}"
+                      [ngStyle.gt-md]="{'height': '380px'}"
+                      [ngStyle.gt-lg]="{'height': '300px'}">
+                      <div class="cnt-container">
+                        <mat-card-header  fxLayout="row" fxLayoutGap="15px">
+                          <div mat-card-avatar class="item">
+                            <img  class="profile-image" src="./assets/founders/rgresham.jpeg" alt="founder">
+                          </div>
+                          <div class="item founder-title" fxFlex="75">
+                            <mat-card-title>Robert Gresham</mat-card-title>
+                            <mat-card-subtitle><span class="ttp0">TTP0</span>&nbsp;&nbsp;Co-Founder</mat-card-subtitle>
+                          </div>
+                        <div class="item" fxFlexAlign="start" align="right">
+                          <button mat-icon-button [matMenuTriggerFor]="rgresham">
+                              <mat-icon>more_vert</mat-icon>
+
+                              <mat-menu #rgresham="matMenu">
+                                <!-- TODO ENABLE BIO MENU ITEM AND CREATE BIO PAGE
+                                <button mat-menu-item>
+                                  <mat-icon>dialpad</mat-icon>
+                                  <span>Bio</span>
+                                </button>
+                                -->
+                                <a mat-menu-item href="https://www.youtube.com/watch?v=_mnxZ1iSUGg" target="_blank" rel="noopener">
+                                  <mat-icon>play_circle_filled</mat-icon>
+                                  <span>YouTube</span>
+                                </a>
+
+                                <a mat-menu-item href="https://www.linkedin.com/in/rwgresham/" target="_blank" rel="noopener">
+                                  <mat-icon><img class="linkedin" src="./assets/LinkedIn-Logos/LI-In-Bug.png" alt=""></mat-icon>
+                                  <span>LinkedIn</span>
+                                </a>                                
+                              </mat-menu>
+                          </button>
+                        </div>
+                        </mat-card-header>
+                      </div>
+
+                      <mat-card-content>
+                        <br>
+                        <div>
+                          <p [ngStyle.lt-sm]="{'font-size': '14px'}">Rob has over 19 years of experience in building and providing security operations teams conducting incident response,
+                            forensics and threat intelligence to public/private entities in support of civil/criminal investigations.</p>
+                        </div>                        
+                      </mat-card-content>
+
+                    </mat-card>
+              </div>
+                  
+            </div>
+          <!-- End Founder Profiles -->
+      </mat-tab>    
+    </mat-tab-group>
+  </div>
+
+</div>
