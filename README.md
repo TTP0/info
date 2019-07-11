@@ -38,5 +38,6 @@ Contact | address
 --------|-------------
 E-mail  | info@ttp0.io
 Twitter | [TTP0](https://twitter.com/TTP_0)
-Web     | [www.ttp0.io](http://www.ttp0.io)
+Web     | [ttp0.github.io/info](https://ttp0.github.io/info/)
+
 >>>>>>> dcf8db5d96c1e4e6a17db67d1396e4c591e3bc39
